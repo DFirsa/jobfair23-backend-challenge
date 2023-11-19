@@ -13,7 +13,7 @@ public class AuctionNotifierLogger implements AuctionNotifer {
 
     @Override
     public void auctionFinished(Auction auction) {
-        log.info("Auction finished: {}", auction);
+        log.info("Auction finished: {}", auction.getAuctionId());
     }
 
     @Override
